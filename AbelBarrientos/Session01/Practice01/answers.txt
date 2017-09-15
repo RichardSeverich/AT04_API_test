@@ -1,0 +1,18 @@
+# What is ruby?
+Ruby is a full object oriented programming language focused on simplicity and
+productivity, because everything in ruby is an object.
+
+# What pros/cons you considered from the point explained in the class
+Pros
+  - Simple way to define code.
+  - Many code already created to implement the options that you need.
+
+Cons
+  - You should define the guideline of your own code according the rules
+  defined in the team
+
+#According what we talked today, what are the 3 testing tiers?
+From top to bottom:
+  - UI Testing (e2e)
+  - API Testing
+  - Unit Testing
