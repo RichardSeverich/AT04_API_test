@@ -1,20 +1,20 @@
 =begin 
-Evaluation order of operators				from
-() [] -> .								left to right	
+Evaluation order of operators				   from
+() [] -> .								          left to right	
 ! ~ ++ -- + - (type) * & sizeof			right to left	
-* / %									left to right		
-+ -										left to right	
-<< >>									left to right	
-< <= > >=								left to right		
-== !=									left to right		
-&										left to right		
-^										left to right		
-|										left to right		
-&&										left to right		
-||										left to right		
-?:										right to left	
+* / %									              left to right		
++ -										              left to right	
+<< >>									              left to right	
+< <= > >=							            	left to right		
+== !=									              left to right		
+&										                left to right		
+^										                left to right		
+|									                	left to right		
+&&									              	left to right		
+||										              left to right		
+?:										              right to left	
 = += -= *= /= %= &= ^= |= <<= >>=		right to left	
-,										left to right	
+,										                left to right	
 =end 
 puts "I will now count my fruits:"
 puts "Bananas:  #{25 + 30 / 6}"
