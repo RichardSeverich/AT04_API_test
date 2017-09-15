@@ -1,0 +1,29 @@
+Name: Simon Ovidio Miranda Chiri
+
+Answers About Ruby
+
+1.- What is ruby?
+_It is a programming language.
+_It is a dynamic language that class types are defined at run time.
+_Based on object-oriented programming.
+_It is portable can be used in multiple operating systems and multiple platforms.
+_Easy to use.
+_Quick to implement.
+
+2.- What pros/cons you considered from the point explained in the class
+pros                                                                       
+ Not declared variables. 
+ No need import files or libraries.                    
+ Not used ";".                            
+ Easy learn.
+
+cons
+ Slow processing.
+ Not use multiple inheritance.
+
+
+3.- According what we talked today, what are the 3 testing tiers?
+
+*Unit Test:They are tests of the source code made by the developers.They are least expensive to create, they are the fastest to execute and yield highest results. 
+*Api Test: The API tests which are executed against the service layer.
+*GUI Test: Validates the application as a whole at presentation layer.
