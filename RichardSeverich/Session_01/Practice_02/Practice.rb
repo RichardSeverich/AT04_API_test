@@ -1,27 +1,29 @@
 =begin
-Evaluation order of operators
-left to right==>() [] -> .
-right to left==>! ~ ++ -- + - (type) * & sizeof
-left to right==>* / %
-left to right==>+ -
-left to right==><< >>
-left to right==>< <= > >=
-left to right==>== !=
-left to right==>&
-left to right==>^
-left to right==>|
-left to right==>&&
-right to left==>||
-right to left==>?:
-left to right==>= += -= *= /= %= &= ^= |= <<= >>=
-right to left==>,										                	
-=end 
-puts "I will now count my fruits:"
-puts "Bananas:  #{25 + 30 / 6}"
-puts "apples: #{100 - 25 * 3 % 4}"
-puts "Now I will count the potato:"
-puts 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
-puts "Is it true that 3 + 2 < 5 - 7?"
-puts 3 + 2 < 5 - 7
-puts "What is 3 + 2? It is #{3 + 2}"
-puts "What is 5 - 7? It is #{5 - 7}"
+Create a script where you can print numbers and arithmetic result using comparison operators
+This script shows the different comparators and arithmetic operators in ruby:									                	
+=end
+
+puts "Result of adding:      10 + 10 	: #{10 + 10}"
+puts "Result of subtracting: 10 + 10 	: #{10 - 10}"
+puts "Result of multiplying: 10 + 10 	: #{10*10}"
+puts "Result of dividing:    10 + 10 	: #{10/10}"
+puts "result of comparing with 10>10 	: #{10>10}"
+puts "result of comparing with 10<10 	: #{10<10}"
+puts "result of comparing with 10>=10 	: #{10>=10}"
+puts "result of comparing with 10<=10 	: #{10<=10}"
+puts "result of comparing with 10==10 	: #{10==10}"
+puts "result of comparing with 10===10 	: #{10===10}"
+puts "result of comparing with 10<=>10 	: #{10<=>10}"
+puts "result of comparing with 10!=10 	: #{10!=10}"
+puts "result of comparing with 10=~10 	: #{10=~10}"
+puts "result of true && false			: #{true && false}"
+puts "result of true || false			: #{true || false}"
+puts "result of 5*5 - 5 > 25/5 + 5		: #{5*5 - 5 > 25/5 + 5}"
+puts "result of 5*5 - 5 < 25/5 + 5 		: #{5*5 - 5 < 25/5 + 5}"
+puts "result of 5*5 - 5 >= 25/5 + 5 	: #{5*5 - 5 >= 25/5 + 5}"
+puts "result of 5*5 - 5 <= 25/5 + 5 	: #{5*5 - 5 <= 25/5 + 5}"
+puts "result of 5*5 - 5 == 25/5 + 5		: #{5*5 - 5 == 25/5 + 5}"
+puts "result of 5*5 - 5 === 25/5 + 5 	: #{5*5 - 5 === 25/5 + 5}"
+puts "result of 5*5 - 5 <=> 25/5 + 5 	: #{5*5 - 5 <=> 25/5 + 5}"
+puts "result of 5*5 - 5 != 25/5 + 5		: #{5*5 - 5 != 25/5 + 5}"
+puts "result of 5*5 - 5 =~ 25/5 + 5		: #{5*5 - 5 =~ 25/5 + 5}"
