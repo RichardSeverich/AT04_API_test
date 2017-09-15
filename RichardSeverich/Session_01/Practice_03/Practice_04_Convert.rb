@@ -10,9 +10,9 @@ Create variable to assign the values Use the variable name to print the result.
 band = -1;
 while(band!=0)
 	puts "Select an option"
-	puts "1 .Seconds in minutes"
-	puts "2 .Seconds in hours "
-	puts "3 .Second in days"
+	puts "1 .Seconds to minutes"
+	puts "2 .Seconds to hours "
+	puts "3 .Second to days"
 	puts "4 .Exit"
 	op = gets.chomp.to_i
 	
