@@ -1,4 +1,4 @@
-=begin
+﻿=begin
 Practice 07
 Create a ruby class with 1 method :
 	Insert user name and Age ,ask by prompt.
@@ -9,22 +9,28 @@ Instance the class to get the values of the first method and assign this value t
 This variable needs to be send to the instance of the second class as a parameter to perform the calculation
 =end
 class Person
-  MINUTES = 525600
+  attr_accessor :name, :age
+
   def initialize(name, age)
     @name = name
     @age = age
   end
+end
 
-  def calculateAgeInMinutes()
-    puts "The age of #{@name} in minutes is: #{@age * MINUTES} min"
+class Calculate
+  MINUTES = 525600
+
+  def ageInMinutes(age)
+     age * MINUTES
   end
 end
 
-print 'Introduce your name: '
+print "Introduce your name: "
 name = gets.chomp
-print 'Introduce your age: '
+print "Introduce your age: "
 age = gets.to_i
 
 person = Person.new(name, age)
-person.calculateAgeInMinutes
-
+calc = Calculate.new()
+resp=calc.ageInMinutes(person.age)
+puts "The age of #{person.name} is #{person.age} year in minutes is: #{resp} "
