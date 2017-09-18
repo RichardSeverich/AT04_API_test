@@ -1,0 +1,51 @@
+Name: Simon Ovidio Miranda Chiri
+
+Let’s consider you are in a new team :
+Define which code guideline you would suggest for :
+Please Add your suggestion and define one example for each one.
+
+*Format (int, float, string)
+For the use of variables (int, float, string)
+ Use snake_case for variables.
+ I would advise using the ".to_" method to convert to the type of variable that will be used,
+  so that there are no errors at the time of executing the script,
+  For example:
+  value_integer = number.to_i
+  value_float = number.to_f
+  value_string = word.to_s
+
+*Classes
+ _Use CamelCase for classes.
+ For Example:
+
+ class SomeClass
+   # some code
+ end
+
+*Methods
+ Use snake_case for methods.
+ The methods should use with parenthesis.
+ For example:
+
+           def example_test(test1,test2)
+           end
+
+*Variables, Getter/Setter
+For the variables we can use the following:
+For example:
+
+ _For the getter
+
+  attr_reader :item_name
+
+ _For the setter
+
+  attr_writer :item_name
+
+ _For the getter and setter
+
+  attr_accessor: name
+
+*If condition
+For 'if then else' cases, it is best to replace it with a short-if expression.
+expression ? value_if_true : value_if_false
