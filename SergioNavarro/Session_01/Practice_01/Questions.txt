@@ -1,0 +1,19 @@
+*What is ruby?
+It is a programming languaje that is the most object-oriented ever because the 95% of the elements are considered objects. Its was developed by a japenesse and its is very expresive and in some way "open".
+
+*What pros/cons you considered from the point explained in the class
+
+Pro
+- It is very expresive like a natural languaje
+- It is very open, I mean for example the variables could be free without conditions 
+
+Cons
+
+- The variables could be too public and there's no restriccion.
+
+*According what we talked today, what are the 3 testing tiers?
+
+- Unit Test
+- Api Test
+- GUI Test
+
