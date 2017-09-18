@@ -1,0 +1,23 @@
+What is ruby?
+
+-Ruby is a programming language. It was created by Yukihiro Matsumoto several years ago. Ruby is an open source programming language, and we can a lot information about this language in differents pages, books, etc . I think that Ruby is a simple but powerful programming language, because it is easy to learn, and this language has all necessary thinks for doing big applications. 
+Finally Ruby is object-oriented programming language, because everything in Ruby is an object and for this reason it is considered 100% object oriented.
+ 
+What pros/cons you considered from the point explained in the class
+
+-I think that ruby has more advantages that disvantages because it is intuitive and we can do several things with a few code lines, the disadvantage is that Ruby is too open, so Ruby rules depends of the developers.
+
+According what we talked today, what are the 3 testing tiers?
+ 
+-The three tiers are:
+                -
+	     UI Tests
+             --------
+
+	     API tests
+       -------------------
+
+	     Unit tests
+ -------------------------------
+
+this three levels form the test pyramid that shown it is better to do more unit test and api tests than iu test, because Unit tests and api test are the fastest and least expensive tests.
