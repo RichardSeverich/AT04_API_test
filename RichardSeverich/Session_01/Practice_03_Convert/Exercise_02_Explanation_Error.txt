@@ -1,0 +1,5 @@
+Add some line in the middle of your script that is referring to a variable that doesn’t exist. 
+Run the file and please explain the error displayed. 
+Show the following error:
+Practice_Variables.rb:13:in `<main>': undefined local variable or method `non_existent_variable' for main:Object (NameError)
+This error means that the variable has not been defined and for that is why ruby can not recognize it.
