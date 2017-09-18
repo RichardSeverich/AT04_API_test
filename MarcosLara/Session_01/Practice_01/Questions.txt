@@ -1,0 +1,17 @@
+1. What is ruby?
+Ruby is a cross-platform scripting programming language, stands out for its simple and easy to understand syntax.
+It is considered pure object-oriented language.
+
+2. What pros/cons you considered from the point explained in the class
+Pros:
+    - Many gems (libraries) are already implemented.
+    - It is not necessary the explicit include of classes.
+    - It is not necessary the use of the ";" at the end of an statement.
+    - No much code conditions.
+
+Cons:
+    - Sometimes the fact that language is too "open" in the variables management can be a disadvantage.
+    - No multiple inheritance.
+
+3. According what we talked today, what are the 3 testing tiers?
+Unit Test, API Test and UI Test.

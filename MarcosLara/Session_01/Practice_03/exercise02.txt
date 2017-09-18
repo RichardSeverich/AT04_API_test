@@ -1,0 +1,40 @@
+Task: Add some line in the middle of your script that is referring to a variable that
+does not exist. Run the file and please explain the error displayed.
+
+The executed script was:
+
+------------------------ Start of Script ------------------------
+result_one = 6 + 7
+result_two = 0 - 10
+puts 'The numeric value of six plus seven is %d' % [result_one]
+puts 'The numeric value of zero minus ten is %d' % [result_two]
+
+result_three = 10 + 20 - 30 * 40 / 5 % 6
+result_four = 100 -500 * 1000 % 5
+puts 'The numeric value of 10 + 20 - 30 * 40 / 5 mod 6 is %d' % [result_three]
+puts 'The numeric value of 100 -500 * 1000 mod 5 is %d' % [result_four]
+
+
+#Reference to variable that does not exists.
+puts new_variable
+
+logical_one = 10 == 10
+logical_two = 10 != 10
+logical_three = 4 <= 2
+puts 'The result of this logical expression 10 == 10 is %s' % [logical_one]
+puts 'The result of this logical expression 10 != 10 is %s' % [logical_two]
+puts 'The result of this logical expression 4 <= 2 is %s' % [logical_three]
+
+eql_one = 0.0.eql?(0)
+eql_two = 0.0.eql?(0.0)
+puts 'Is 0.0 eql to 0? %s' % [eql_one]
+puts 'Is 0.0 eql to 0.0? %s' % [eql_two]
+
+------------------------ End of Script ------------------------
+
+
+The code was executed normally until arriving at the sentence where reference
+is made to the variable that was not declared, in this line an error of type
+"Undefined local variable or method" occurs that interrupts the execution of
+the program. Therefore it is concluded that it is an error that is presented
+at runtime.
