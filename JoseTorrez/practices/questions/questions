@@ -1,0 +1,15 @@
+1. What is ruby?
+Is an object oriented programming language that s easy to understand and easy to write it, simplify complexity of the
+code in a script.
+2. What pros/cons you considered from the point explained in the class?
+pros
+-Imports are not needed, you can use any "gem" that you want.
+-Easy way to define the code.
+-Methods can return many variables.
+-No more ";"
+cons
+-No multiple inheritance.
+-When is a group code you need to put a guideline.
+3. According what we talked today, what are the 3 testing tiers?
+- Unit Test, API Test and UI Test.
+
