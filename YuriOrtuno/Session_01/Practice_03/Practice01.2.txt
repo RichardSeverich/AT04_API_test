@@ -1,0 +1,4 @@
+Add some line in the middle of your script that is referring to a variable that doesn’t exist.
+Run the file and please explain the error displayed
+
+The error apear when a given variable is invalid or not is defined
