@@ -1,0 +1,91 @@
+One of the most important code guidelines and the first one that is defined is
+the naming convention, as defined by the main code styles for Ruby (bbatsov
+ruby-style-guide and airbnb Ruby Style Guide) it is advisable to use the CamelCase
+notation for the naming of classes within Ruby, for variables and class methods
+is recommended to use SnakeCase notation. It is important that the file encoding
+would be UTF-8.
+
+=>>Classes and modules notation using CamelCase<<=
+Examples:
+
+class SomeClass
+  # some code
+end
+
+class SomeXML
+  # some code
+end
+
+=>>Symbols, methods and variables notation using SnakeCase<<=
+Examples:
+
+:some_symbol
+
+some_var = 5
+var10    = 10
+
+def some_method
+  # some code
+end
+
+=>> Limit lines to 80 characters.
+
+=>> Don't use ";" to separate statements and expressions.
+
+=>> Use one expression per line.
+
+=>> Tab size = 2, Indentation = 2.
+
+=>> When assigning the result of a conditional expression to a variable, preserve the usual alignment of its branches
+Example:
+kind = case year
+       when 1850..1889 then 'Blues'
+       when 1890..1909 then 'Ragtime'
+       when 1910..1929 then 'New Orleans Jazz'
+       when 1930..1939 then 'Swing'
+       when 1940..1950 then 'Bebop'
+       else 'Jazz'
+       end
+
+result = if some_cond
+           calc_something
+         else
+           calc_something_else
+         end
+
+=>> Use empty lines around access modifiers.
+Example:
+class Foo
+  attr_reader :foo
+
+  def foo
+    # do something...
+  end
+end
+
+=>> Use spaces around the "=" operator when assigning default values to method parameters
+Example:
+def some_method(arg1 = :default, arg2 = nil, arg3 = [])
+  # do something...
+end
+
+=>> Align the elements of array literals spanning multiple lines.
+Example:
+menu_item =
+  ['Spam', 'Spam', 'Spam', 'Spam', 'Spam', 'Spam', 'Spam', 'Spam',
+   'Baked beans', 'Spam', 'Spam', 'Spam', 'Spam', 'Spam']
+
+=>> Add underscores to large numeric literals
+Example:
+num = 1_000_000
+
+=>> Use def with parentheses when there are parameters. Omit the parentheses when the
+method doesn't accept any parameters.
+Example:
+def some_method_with_parameters(param1, param2)
+  # body omitted
+end
+
+=>> Use parentheses around the arguments of method invocations
+Example:
+temperance = Person.new('Temperance', 30)
