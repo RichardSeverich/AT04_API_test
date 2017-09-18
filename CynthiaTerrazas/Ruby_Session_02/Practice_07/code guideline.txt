@@ -1,0 +1,140 @@
+Let’s consider you are in a new team :
+Define which code guideline you would suggest for :
+
+my suggestion are: 
+-----------------------------------------------------
+Format (int, float, string)
+-----------------------------------------------------
+-used this type of primitives variables.
+-to_i for convert to int
+-to_f for convert to float
+-to_s for convert to string
+
+for example 
+=begin
+var1 = 10  
+var2 = '7' #this is a string
+puts var1 + var2.to_i  
+
+or
+var1 = 20.8  
+var2 = 11 #this is a integer
+puts var1 + var2.to_f  
+
+or
+var1 = "Practice"  
+var2 = 10 #this is a integer
+puts var1 << var2.to_s  
+
+------------------------------------------------------
+Classes
+------------------------------------------------------
+
+-Class names shoulds tart with an uppercase letter
+
+example:
+class Name
+ # some code describing the class behavior
+end
+
+-Class name has more than one word should use CamelCase. 
+
+example:
+class ClassName
+ # some code describing the class behavior
+end
+
+-Class name should be in singular and descriptive
+
+
+--------------------------------------------------------
+Methods
+--------------------------------------------------------
+- Method names should begin with a lowercase letter.
+ 
+example:
+def method
+   expr..
+end
+
+-if the methods names has more than one word should use snake_case
+
+example:
+def method_name 
+   expr..
+end
+-Method with parameters should use parenthesis.
+
+example:
+def method_name(parameter1, parameter2,…)
+   expr..
+end
+
+-Method without parameters, without parenthesis.
+
+example:
+def method_name 
+   expr..
+end
+
+-Methods shouldnt use a return word, because Methods return the value of the last statement 
+
+example:
+def calculate_value(x,y)
+  x + y
+end
+
+----------------------------------------------------------
+Variables
+----------------------------------------------------------
+
+-Global variables begin with $
+
+example:
+$global_variable = 10
+class Class1
+   def print_global
+      puts "Global variable in Class1 is #$global_variable"
+   end
+end
+
+-Instance variables begin with @.
+
+example:
+class Customer
+   def initialize(name)
+      @cust_name = name
+   end
+   def display_details()
+      puts "Customer name #@cust_name"
+   end
+end
+
+-Class variables begin with @@.
+
+example:
+class Customer
+   @@no_of_customers = 0
+ 
+   def total_no_of_customers()
+      @@no_of_customers += 1
+      puts "Total number of customers: #@@no_of_customers"
+   end
+end
+
+-Local variables begin with a lowercase letter or _. 
+
+example:
+myString = 'hello'
+puts myString
+
+
+------------------------------------------------------------
+If condition
+------------------------------------------------------------
+The "short-if" statement should be use.
+Example :
+a=5
+puts result = a == 4? a = 7 : a=10
+
+
