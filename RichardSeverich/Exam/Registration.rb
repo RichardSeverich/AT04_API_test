@@ -107,6 +107,7 @@ class Registration
 					set_logger(content)
 				when "5" then
 					flag = true
+					puts "GOOD BYE"
 				else
 					puts "INCORRECT OPTION TRY AGAIN PLEASE"
 				end
