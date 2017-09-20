@@ -1,0 +1,7 @@
+I think the team should adopt guide lines and best practices while writing in any
+programming language.
+After a little research I would recommend to adopt the best practices explained in:
+https://github.com/bbatsov/ruby-style-guide
+Also use a code analizer like RuboCop https://github.com/github/rubocop-github
+That implements these best practices for writing ruby.
+And make some changes if the project needs it.
