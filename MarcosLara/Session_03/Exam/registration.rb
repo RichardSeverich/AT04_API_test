@@ -85,6 +85,7 @@ class Registration
       if response == 'YES'
         perform_conversion(ask_conversion_type)
       else
+        append_msg_to_log 'Good Bye'
         no_conversion_users.push(key)
       end
     end
