@@ -13,7 +13,7 @@ class Users
 		@myHashDate = Hash.new
 		@myHashDestination = Hash.new
 		@myArrayDestinations = ["La Paz","Cochabamba","Santa Cruz","Oruro","Beni","Chuquisaca","Pando","Sucre","Potosi"]
-		prng = Random.new
+		@prng = Random.new
 		until @count > 100
 			if(@count.to_s.length<2)
 				@number_user = "0"+@count.to_s
@@ -23,7 +23,7 @@ class Users
 			@myHashUsers.store @count, "%s%s" % [@user,@number_user]
 			@myHashPass.store @count, "%s%s" % [@pass,@number_user]
 			@myHashDate.store @count, time_rand
-			@myHashDestination @count, @myArrayDestinations[prng.rand(9)]
+			@myHashDestination.store @count, @myArrayDestinations[rand(9)]
 			@count +=1
 		end
 
@@ -32,7 +32,7 @@ class Users
 
 	def printUsers()
 		@myHashUsers.each do |(key, value)|
-			puts "#{value}  |  #{@myHashPass[key]}  |  #{@myHashDate[key]}"
+			puts "#{value}  |  #{@myHashPass[key]}  |  #{@myHashDate[key]}  |  #{@myHashDestination[key]}"
 		end
 	end
 
