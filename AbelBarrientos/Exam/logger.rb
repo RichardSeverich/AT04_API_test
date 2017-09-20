@@ -6,4 +6,10 @@ module Logger
     file.close
   end
 
+  def add_array array
+    file = File.open("execution.log", 'a')
+    file.write p array
+    file.close
+  end
+
 end

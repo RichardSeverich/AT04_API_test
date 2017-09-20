@@ -128,4 +128,4 @@ end
 
 registration = Registration.instance
 registration.amount_of_users
-p registration.perform_calc
+registration.add_array registration.perform_calc
