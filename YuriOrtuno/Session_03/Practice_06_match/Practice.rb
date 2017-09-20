@@ -3,8 +3,9 @@ def input_name
   puts "input name"
 
   name = gets.chomp.to_s
-  until /^[a-z0-9_]*$/.match(name)
+  until /^[a-z]+[_]+[0-9]+$/.match(name)
   # until /^[^A-Z]*$/.match(name)
+  # until /^[a-z]*$/.match(name)
     puts "Need to be write with lowercase letter (a-z), number (0-9)"
     name = gets.chomp.to_s
   end
@@ -16,7 +17,7 @@ end
 def input_password
   puts "input password"
   password = gets.chomp.to_s
-  until /^[a-z0-9A-Z]{8,16}$/.match(password)
+  until /^[a-z0-9A-Z]*$/.match(password)
     puts "Need to be write with lowercase letter (a-z), number (0-9), letter (A-Z)
          and the length have to be between 8 and 16 characters"
     password = gets.chomp.to_s
@@ -28,8 +29,8 @@ end
 def input_email
   puts "input email"
   email = gets.chomp.to_s
-  until email =~ /.com/ && email =~ /@/
-    puts "Need to have the format anything@domain.com"
+  until /^[a-z0-9]+[@]+[a-z]+(.com|.com.bo)+$/.match(email)
+    puts "Need to have the format anything@domain.com or anything@domain.com.bo"
     email = gets.chomp.to_s
   end
   email

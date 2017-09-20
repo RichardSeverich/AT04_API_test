@@ -11,7 +11,7 @@ should print the array
 2. Instance the class and call to each method in order to interact with them. Consider that method one shodul return the value that need to be used in second method.
 =end
 
-class Practices
+class Practicess
   def method1
     size = gets.chomp.to_i
     array = Array.new
@@ -28,5 +28,5 @@ class Practices
 end
 
 
-practice = Practices.new()
+practice = Practicess.new()
 practice.method2 practice.method1

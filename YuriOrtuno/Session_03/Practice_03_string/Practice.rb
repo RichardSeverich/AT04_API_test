@@ -5,7 +5,6 @@ class Practices
 
   end
 
-
 end
 
 practice = Practices.new
