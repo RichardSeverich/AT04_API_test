@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="194a27c6-25b7-4171-a784-1ccd15b4740a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_07_match/Practice_match.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_08_singleton/Practice.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_09_shopping/Shopping_online.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_10_files/Practice.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_10_files/file_test.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_11_generate_list/Practice.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_02_string/Practice.rb" afterPath="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_02_string/Practice.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_03_string/Practice.rb" afterPath="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_03_string/Practice.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_06_match/Practice.rb" afterPath="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_06_match/Practice.rb" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/AT04_API_test@Practice__3_.coverage" NAME="Practice (3) Coverage Results" MODIFIED="1505862155133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\API TESTING\practices\AT04_API_test\YuriOrtuno\Session_03\Practice_06_match" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@Practice01__1_.coverage" NAME="Practice01 (1) Coverage Results" MODIFIED="1505755917185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_05" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@Practice01__3_.coverage" NAME="Practice01 (3) Coverage Results" MODIFIED="1505761182560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_09" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@Person.coverage" NAME="Person Coverage Results" MODIFIED="1505761412404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_01" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@Customer.coverage" NAME="Customer Coverage Results" MODIFIED="1505769978997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_03" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@Exercise_03.coverage" NAME="Exercise_03 Coverage Results" MODIFIED="1505840177748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_02/Session_03/Practice_01" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@Mixim.coverage" NAME="Mixim Coverage Results" MODIFIED="1505783263107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_08" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@Shopping_online.coverage" NAME="Shopping_online Coverage Results" MODIFIED="1505933174069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_09" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@NameAndAge.coverage" NAME="NameAndAge Coverage Results" MODIFIED="1505758006810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_08" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@Exercise_01_numbers.coverage" NAME="Exercise_01_numbers Coverage Results" MODIFIED="1505754914497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RichardSeverich/Session_01/Practice_03_Convert" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@Passenger.coverage" NAME="Passenger Coverage Results" MODIFIED="1505771032247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_05" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@Exercise_01.coverage" NAME="Exercise_01 Coverage Results" MODIFIED="1505843994601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_02/Session_03/Practice_01" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@Practice01.coverage" NAME="Practice01 Coverage Results" MODIFIED="1505755338716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_04" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@Practice__2_.coverage" NAME="Practice (2) Coverage Results" MODIFIED="1505848925379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_02/Session_03/Practice_05_iterator" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@MyCar.coverage" NAME="MyCar Coverage Results" MODIFIED="1505769560232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_02" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@Practice__4_.coverage" NAME="Practice (4) Coverage Results" MODIFIED="1505928140309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_08_singleton" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@Practice_match.coverage" NAME="Practice_match Coverage Results" MODIFIED="1505929959627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_07_match" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@circle.coverage" NAME="circle Coverage Results" MODIFIED="1505756286170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_07" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@Temperature.coverage" NAME="Temperature Coverage Results" MODIFIED="1505770002982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_04" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@practice01.coverage" NAME="practice01 Coverage Results" MODIFIED="1505754113419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_02" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@Practice01__2_.coverage" NAME="Practice01 (2) Coverage Results" MODIFIED="1505755920451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_06" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@AccesMyCar.coverage" NAME="AccesMyCar Coverage Results" MODIFIED="1505764010888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_03" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@Practice.coverage" NAME="Practice Coverage Results" MODIFIED="1505933935828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_10_files" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@Hash.coverage" NAME="Hash Coverage Results" MODIFIED="1505840167232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_02/Session_03" MODULE_NAME="AT04_API_test" />
+    <SUITE FILE_PATH="coverage/AT04_API_test@Practice__1_.coverage" NAME="Practice (1) Coverage Results" MODIFIED="1505937351835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_11" MODULE_NAME="AT04_API_test" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Practice.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_10_files/Practice.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Practice.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_11_generate_list/Practice.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_test.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_10_files/file_test.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_01/Questions.txt" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_02/practice01.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_03/Practice01.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_03/Practice01.2.txt" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_04/Practice01.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_05/Practice01.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_06/Practice01.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_07/circle.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_08/NameAndAge.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_09/Practice01.rb" />
+        <option value="$PROJECT_DIR$/OvidioMiranda/Session_01/Practice_03/exercise_4.rb" />
+        <option value="$PROJECT_DIR$/OvidioMiranda/Session_01/Practice_07/Practice07.rb" />
+        <option value="$PROJECT_DIR$/SergioNavarro/Session_01/Practice_08/Practice8_session1/father.rb" />
+        <option value="$PROJECT_DIR$/SergioNavarro/Session_01/Practice_06/Practice6_session1/practice.rb" />
+        <option value="$PROJECT_DIR$/SergioNavarro/Session_01/Practice_07/Practice7_session1/practice.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_01/Person.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_03/AccesMyCar.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_02/AccesMyCar.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_02/MyCar.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_03/Customer.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_04/Temperature.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_05/Passenger.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_08/Ways.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_02/Session_03/Hash.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_08/Greets.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_08/WaysOfSay.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_08/Mixim.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_02/Session_03/Practice_01/Exercise_03.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_02/Session_03/Practice_01/Exercise_01.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_02/Session_03/Practice_02/Practice.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_02/Session_03/Practice_03/Practice.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_02/Session_03/Practice_04/Practice.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_02/Session_03/Practice_05_iterator/Practice.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_02/Session_03/Practice_06_match/Practice.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_03_string/Practice.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_02_string/Practice.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_06_match/Practice.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_08_singleton/Practice.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_07_match/Practice_match.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_09/Shopping_online.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_10_files/file_test.txt" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_10_files/Practice.rb" />
+        <option value="$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_11/Practice.rb" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="50" />
+    <option name="y" value="10" />
+    <option name="width" value="1175" />
+    <option name="height" value="912" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Ruby</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>RubyArgCount</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AT04_API_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AT04_API_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AT04_API_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AT04_API_test" type="462c0819:PsiDirectoryNode" />
+              <item name="YuriOrtuno" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AT04_API_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AT04_API_test" type="462c0819:PsiDirectoryNode" />
+              <item name="YuriOrtuno" type="462c0819:PsiDirectoryNode" />
+              <item name="Session_01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AT04_API_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AT04_API_test" type="462c0819:PsiDirectoryNode" />
+              <item name="YuriOrtuno" type="462c0819:PsiDirectoryNode" />
+              <item name="Session_02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AT04_API_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AT04_API_test" type="462c0819:PsiDirectoryNode" />
+              <item name="YuriOrtuno" type="462c0819:PsiDirectoryNode" />
+              <item name="Session_03" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\API TESTING\practices\AT04_API_test\YuriOrtuno\Session_03" />
+      <recent name="C:\API TESTING\practices\AT04_API_test\YuriOrtuno\Session_02\Session_03\Practice_01" />
+      <recent name="C:\API TESTING\practices\AT04_API_test\YuriOrtuno\Session_02\Session_03" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\API TESTING\practices\AT04_API_test\YuriOrtuno" />
+      <recent name="C:\API TESTING\practices\AT04_API_test\YuriOrtuno\Session_02\Practice_02" />
+      <recent name="C:\API TESTING\practices\AT04_API_test\YuriOrtuno\Session_02\Practice_01" />
+      <recent name="C:\API TESTING\practices\AT04_API_test\YuriOrtuno\Session_01\Practice_01" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Ruby.Practice (1)">
+    <configuration name="Practice (1)" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="AT04_API_test" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="C:\API TESTING\practices\AT04_API_test\YuriOrtuno\Session_03\Practice_11_generate_list" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/YuriOrtuno/Session_03/Practice_11_generate_list/Practice.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+    </configuration>
+    <configuration name="Practice (4)" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="AT04_API_test" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/YuriOrtuno/Session_03/Practice_08_singleton" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/YuriOrtuno/Session_03/Practice_08_singleton/Practice.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+    </configuration>
+    <configuration name="Practice" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="AT04_API_test" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/YuriOrtuno/Session_03/Practice_10_files" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/YuriOrtuno/Session_03/Practice_10_files/Practice.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+    </configuration>
+    <configuration name="Practice_match" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="AT04_API_test" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/YuriOrtuno/Session_03/Practice_07_match" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/YuriOrtuno/Session_03/Practice_07_match/Practice_match.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+    </configuration>
+    <configuration name="Shopping_online" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="AT04_API_test" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="C:\API TESTING\practices\AT04_API_test\YuriOrtuno\Session_03\Practice_09_shopping" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/YuriOrtuno/Session_03/Practice_09_shopping/Shopping_online.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Ruby.Practice_match" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.Practice (4)" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.Shopping_online" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.Practice" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.Practice (1)" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Ruby.Practice (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.Practice" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.Shopping_online" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.Practice_match" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.Practice (4)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="194a27c6-25b7-4171-a784-1ccd15b4740a" name="Default" comment="" />
+      <created>1505748072747</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505748072747</updated>
+      <workItem from="1505748076701" duration="56988000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="56988000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="50" y="10" width="1175" height="912" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26833478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3305187" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/RichardSeverich/Session_01/Practice_02/Exercise.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_03/Practice01.2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RichardSeverich/Session_01/Practice_03_Convert/Exercise_01_numbers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CynthiaTerrazas/Ruby_Session_01/Practice_03/Practice_3.3.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CynthiaTerrazas/Ruby_Session_01/Practice_03/Practice_3.2.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RichardSeverich/Session_01/Practice_03_Convert/Exercise_04_Convert.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="38" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RichardSeverich/Session_01/Practice_03_Convert/Exercise_03_strings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_04/Practice01.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SergioNavarro/Session_01/Practice_05/Practice5_session1/practice.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OvidioMiranda/Session_01/Practice_04/Practice04.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RichardSeverich/Session_01/Practice_04/Exercise.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SergioNavarro/Session_01/Practice_04/Practice4_session1/practice.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_05/Practice01.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_06/Practice01.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RichardSeverich/Session_01/Practice_06_Circle/Exercise_circle.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_07/circle.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_08/NameAndAge.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RichardSeverich/Session_01/Practice_07__Age_to_minutes/Exercise_age_to_minutes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RichardSeverich/Session_01/Practice_08_inheritance/Exercise_inheritance.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SergioNavarro/Session_01/Practice_08/Practice8_session1/father.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="61" column="17" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SergioNavarro/Session_01/Practice_06/Practice6_session1/practice.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SergioNavarro/Session_01/Practice_07/Practice7_session1/practice.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_01/Practice_09/Practice01.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OvidioMiranda/Session_01/Practice_03/exercise_4.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OvidioMiranda/Session_01/Practice_07/Practice07.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_01/Person.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_02/AccesMyCar.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_02/MyCar.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="54" column="19" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_03/Customer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_04/Temperature.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_05/Passenger.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_08/Greets.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_08/WaysOfSay.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_02/Practice_08/Mixim.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_02/Session_03/Practice_01/Exercise_03.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_02/Session_03/Practice_01/Exercise_02.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_02/Session_03/Hash.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs23/regexp.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="962" column="23" lean-forward="true" selection-start-line="962" selection-start-column="23" selection-end-line="962" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_03_string/Practice.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_01_string/Exercise_01.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_02_string/Practice.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_04_hash/Practice.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_05_iterator/Practice.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_06_match/Practice.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby23-x64/lib/ruby/2.3.0/singleton.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="96" column="7" lean-forward="false" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_07_match/Practice_match.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_08_singleton/Practice.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="37" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_09_shopping/Shopping_online.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="70" column="7" lean-forward="false" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_10_files/file_test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_10_files/Practice.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YuriOrtuno/Session_03/Practice_11_generate_list/Practice.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

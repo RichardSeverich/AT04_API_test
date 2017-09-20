@@ -1,0 +1,20 @@
+1.- What is ruby?
+R.- Ruby is an open source, interpreted , object-oriented programming language.
+
+2.- What pros/cons you considered from the point explained in the class
+
+Pros
+ - Easy syntax.
+ - Not declared variables.
+ - It is like a natural language.
+ - All is an object.
+ - No need to include files/libraries.
+
+Cons
+ - Access to variables has no restrictions.
+ - Control of the variables depends on the good faith of the people.
+
+3.- According what we talked today, what are the 3 testing tiers?
+ - Unit Test
+ - Api Test
+ - GUI Test
