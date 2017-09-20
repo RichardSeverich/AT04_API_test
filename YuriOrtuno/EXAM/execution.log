@@ -1,0 +1,39 @@
+insert number user: 
+3
+insert name
+yury
+insert id
+1
+insert name
+yver
+insert id
+2
+insert name
+ortuno
+insert id
+3
+Do you want to perform calculation?
+select a option:
+YES
+NO
+YES
+select number of type conversion
+1.- From millimeters to centimeters
+2.- From centimeters to meters
+3.- From meters to kilometers
+1
+100.0 millimeters in centimeters is: 10.0
+Do you want to perform calculation?
+select a option:
+YES
+NO
+NO
+good bye
+Do you want to perform calculation?
+select a option:
+YES
+NO
+NO
+good bye
+yver
+ortuno
