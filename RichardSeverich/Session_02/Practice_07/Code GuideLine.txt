@@ -1,0 +1,57 @@
+Let’s consider you are in a new team : Define which code guideline you would suggest for :
+Format (int, float, string), Classes, Methods, Variables, Getter/Setter, If condition
+Please Add your suggestion and define one example for each one
+
+===> 	Name identifiers in English:
+bad 
+nombre = Richard
+good
+puts name = Richard
+
+===> 	Use snake case format all files, classes, methods and variables:
+bad
+someVar = 5
+	def someMethod
+	  	# some code
+	end
+good
+	some_var = 5
+	def some_method
+  		# some code
+end
+
+===> 	Use Camel Case for classes and modules. (Keep acronyms like HTTP, RFC, XML uppercase.)
+# bad
+class Someclass
+  # some code
+end
+
+# good
+class SomeClass
+  # some code
+end
+
+===> 	Use snake_case for naming files
+e.g. hello_world.rb
+
+===> 	Use snake_case for naming directories
+e.g. lib/hello_world/hello_world.rb
+
+===> 	 Don't use the getters and setters 
+use: 
+	attr_reader
+	attr_writer
+	attr_accessor
+===> 	Use "" if you need interpolation else use '' 
+# bad
+var = "Hello"
+# good
+var = 'Hello'
+
+===> 	Avoid for loops and use the each method with a block
+ [1, 2, 3, 4, 5].each { |elem| puts elem }
+
+In addition to these points would request to follow the best practices mentioned in the following page:
+https://github.com/bbatsov/ruby-style-guide    or
+https://github.com/github/rubocop-github/blob/master/STYLEGUIDE.md
+
