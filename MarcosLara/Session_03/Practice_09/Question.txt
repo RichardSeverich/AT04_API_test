@@ -1,0 +1,5 @@
+Should be better to use singleton for this implementation? Why?
+
+In this case it is good to apply the pattern of singleton design since it has the advantage
+of keeping in memory a single instance of the class. In case there are more sales outlets all
+will share and have access to the same lists of items and quantity.
