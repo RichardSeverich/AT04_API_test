@@ -1,0 +1,61 @@
+* When and why BDD was defined
+
+Dan North created a BDD framework, was created among other things to generate connection between the logic of the business and the technical part that would be the developers.
+2003: agiledox, the ancestor of BDD, is a tool generating technical documentation automatically from JUnit tests, written by Chris Stevenson.
+
+* The most important aspects of BDD
+
+Collaboration 
+Simple Specification
+Easy Feedback 
+Avoid rework in requirements definition
+Self documentation 
+Focus on Behavior 
+
+* Why is useful and when could be applied.
+
+BDD offers more precise guidance on organizing the conversation between developers, testers and domain experts.
+Tools targeting a BDD approach generally afford the automatic generation of technical and end user documentation from BDD "specifications".
+
+* Which type of teams could implement BDD
+
+A team using BDD should be able to provide a significant portion of "functional documentation" in the form of User Stories augmented with executable scenarios or examples in addition to refactoring techniques already present in TDD, the design philosophy in BDD pays particular attention to appropriate distribution of responsibilities among classes, which leads its practitioners to emphasize "mocking".
+
+* Structure of a feature – Give an example
+
+Every feature file conventionally consists of a single feature. A line starting with the keyword Feature followed by free indented text starts a feature. A feature usually contains a list of scenarios.
+
+Feature: Serve coffee
+  Coffee should not be served until paid for
+  Coffee should not be served until the button has been pressed
+  If there is no coffee left then money should be refunded
+
+* Structure of a user story – Give an example
+
+BDD provides a structure for a story. This is not mandatory – you can use a different story format and still be doing BDD.
+
+Title (one line describing the story)
+ 
+Narrative:
+As a [role]
+I want [feature]
+So that [benefit]
+
+* Structure of a scenario – Give an example
+
+Using the Feature Example
+
+Scenario: Buy last coffee
+  Given there are 1 coffees left in the machine
+  And I have deposited 1$
+  When I press the coffee button
+  Then I should be served a coffee
+
+* Differences between BDD and BDT
+Test-Driven Development gives you the when. Behavior Driven-Development gives you the how.
+
+
+
+
+
+
