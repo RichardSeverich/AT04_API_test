@@ -1,0 +1,94 @@
+﻿1. Research:
+a) When and why BDD was defined
+When:
+	*2003: agiledox, the ancestor of BDD, is a tool generating technical documentation automatically from JUnit tests, written by Chris Stevenson
+	*2004: in order to test his hypotheses about de-emphasizing "test" terminology in favor of "behavior", Dan North releases JBehave
+	*2006: in collaboration with Chris Matts, North proposes the given-when-then canvas to expand the scope of BDD to business analysis and documents the 
+		approach in "Introducing BDD"
+	*2006-2009: several new tools are released confirming the community's investment in BDD, such as RSpec or more recently, Cucumber and GivWenZen
+why:
+Behavior-driven development was developed by Dan North in response to the problems that arose in teaching test-driven development:
+	*Where to start in the process
+	*What to try and what not to try
+	*How much a test covers
+	*How to call the tests
+	*Understanding why a test fails
+
+b) The most important aspects of BDD
+For devs:
+	*like TDD, it helps to think in chunks, create nice and testable code.
+	*write code for what is needed only (build the right thing)
+	*better coordination between different dev teams developing similar features with different technologies
+For QA:
+	*ready acceptance criteria
+	*ready building blocks for all kind of tests
+	*test what is exactly need (test the right thing)
+For PO:
+	*think and reason features in detail thus produce better specs
+	*better visual and coordination with other Managers and Product owners
+	*better visual and understanding on Devs and QAs output/report due to the same source/format of specs
+c) Why it is useful and when it could be applied.
+	Because BDD provides more precise guidance on how to organize the conversation between developers, 
+	testers and domain experts, they are closer to everyday language and have a more superficial learning 
+	curve compared to other tools. Tools targeting a BDD approach generally allow the automatic generation 
+	of technical and end user documentation of the BDD "specifications"
+
+d) Which type of teams could implement BDD.
+	Both mature and new equipment can implement BDD, where mature teams adapt and refine their process to follow their
+	specific needs and context. With these steps the teams will have an idea or general approach for the use of BDD:
+		* Discover
+		* Define
+		* Formalise
+		* Automate
+		* Deliver
+
+2. Structure of a feature - Give an example
+	The structure of a feature is:
+	* Feature name
+	* Description and background [Optional]
+	* Priority
+		Scenario 1: title		
+		Scenario 2: title
+	Example: 
+	Feature: Serve coffee
+ 		 Coffee should not be served until paid for
+ 		 Coffee should not be served until the button has been pressed
+  		 If there is no coffee left then money should be refunded
+
+ 3. Structure of a user story – Give an example
+	The structure of a user story is:
+		Title (one line describing the story)
+		Narrative:
+			As a [role]
+			I want [feature]
+			So that [benefit]
+		Acceptance Criteria: (precented ad scenarios)
+		Scenario 1: title
+		Scenario 2: title
+	Example:
+		History: User withadraws cash
+			as an account holder
+			I wat to withdraw cash from an ATM
+			So you can get money when the banck is closed	
+		Scenario 1: Account has sufficiente funds.
+		Scenario 2: Account has insuffcient funds.  
+
+4. Structure of a scenario – Give an example
+	The structure of a scenario is:
+		Given[context]
+		When [event]
+		Then [outcome]
+  		And/But more of the same
+	Example:
+	Scenario: Buy last coffee
+ 		 Given there are 1 coffees left in the machine
+ 		 And I have deposited 1$
+ 		 When I press the coffee button
+ 		 Then I should be served a coffee
+
+5. Differences between BDD and BDT
+	BDT - Behavior driven testing, usually come after /during BDD (Behavior Driven development) but is not a must, it can be organized 
+	with traditional testing as well. BDD is a process of development based on test-driven development (TDD).
+
+
+
