@@ -1,0 +1,43 @@
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+Feature: Login Action
+
+  Scenario: Successful Login with Valid Credentials # features/login.feature:3
+    Given User is on Home Page                      # features/login.feature:4
+    When User Navigate to LogIn Page                # features/login.feature:5
+    And User enters UserName and Password           # features/login.feature:6
+    Then Message displayed Login Successfully       # features/login.feature:7
+
+  Scenario: Successful LogOut                  # features/login.feature:9
+    When User LogOut from the Application      # features/login.feature:10
+    Then Message displayed LogOut Successfully # features/login.feature:11
+
+2 scenarios (2 undefined)
+6 steps (6 undefined)
+0m0.038s
+
+You can implement step definitions for undefined steps with these snippets:
+
+Given(/^User is on Home Page$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^User Navigate to LogIn Page$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^User enters UserName and Password$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^Message displayed Login Successfully$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^User LogOut from the Application$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^Message displayed LogOut Successfully$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
