@@ -2,39 +2,39 @@ Research :
  - When and why BDD was defined
 	2003: agiledox, the ancestor of BDD, is a tool generating technical documentation automatically from JUnit tests,
 	written by Chris Stevenson
-	2004: in order to test his hypotheses about de-emphasizing "test" terminology in favor of "behavior", Dan North 
+	2004: in order to test his hypotheses about de-emphasizing "test" terminology in favor of "behavior", Dan North
 	releases JBehave
-	2006: in collaboration with Chris Matts, North proposes the given-when-then canvas to expand the scope of BDD to 
+	2006: in collaboration with Chris Matts, North proposes the given-when-then canvas to expand the scope of BDD to
 	business analysis and documents the approach in "Introducing BDD"
-	2006-2009: several new tools are released confirming the community's investment in BDD, such as RSpec or more 
+	2006-2009: several new tools are released confirming the community's investment in BDD, such as RSpec or more
 	recently, Cucumber and GivWenZen
 
-	Dan North created a BDD framework, JBehave, followed by a story-level BDD framework for Ruby called RBehave which 
-	was later integrated into the RSpec project. He also worked with David Chelimsky, Aslak Hellesøy and others to 
-	develop RSpec and also to write "The RSpec Book: Behaviour Driven Development with RSpec, Cucumber, and Friends". 
+	Dan North created a BDD framework, JBehave, followed by a story-level BDD framework for Ruby called RBehave which
+	was later integrated into the RSpec project. He also worked with David Chelimsky, Aslak Hellesøy and others to
+	develop RSpec and also to write "The RSpec Book: Behaviour Driven Development with RSpec, Cucumber, and Friends".
 
  - The most important aspects of BDD
  	BDD offers more precise guidance on organizing the conversation between developers, testers and domain experts
-	Notations originating in the BDD approach, in particular the given-when-then canvas, are closer to everyday 
+	Notations originating in the BDD approach, in particular the given-when-then canvas, are closer to everyday
 	language and have a shallower learning curve compared to those of tools such as Fit/FitNesse
 	Tools targeting a BDD approach generally afford the automatic generation of technical and end user documentation
 	 from BDD "specifications"
 
  - Why is useful and when could be applied.
- 	A team using BDD should be able to provide a significant portion of "functional documentation" in the form of 
+ 	A team using BDD should be able to provide a significant portion of "functional documentation" in the form of
  	User Stories augmented with executable scenarios or examples.
- 	Rather than refer to "the unit tests of a class", a practitioner or a team using BDD prefers to speak of 
- 	"the specifications of the behavior of the class". This reflects a greater focus on the documentary role of such 
- 	specifications: their names are expected to be more expressive, and, when completed with their description in 
+ 	Rather than refer to "the unit tests of a class", a practitioner or a team using BDD prefers to speak of
+ 	"the specifications of the behavior of the class". This reflects a greater focus on the documentary role of such
+ 	specifications: their names are expected to be more expressive, and, when completed with their description in
  	given-when-then format, to serve as technical documentation.
- 
+
  - Which type of teams could implement BDD
- 	Every kind of team can implement BDD, they just need to follow the rules provided, since a team just starting a 
+ 	Every kind of team can implement BDD, they just need to follow the rules provided, since a team just starting a
  	project to a team that only wants to implement it on testing.
 
 Structure of a feature – Give an example
 
-A feature usually contains a list of scenarios. You can write whatever you want up until the first scenario, which 
+A feature usually contains a list of scenarios. You can write whatever you want up until the first scenario, which
 starts with the word Scenario
 
 Feature: Serve coffee
@@ -45,7 +45,7 @@ Feature: Serve coffee
 
 
 Structure of a user story – Give an example
-A BDD story can just as easily describe a non-functional requirement, as long as the work can be scoped, estimated 
+A BDD story can just as easily describe a non-functional requirement, as long as the work can be scoped, estimated
 and agreed on
 
 Structure
@@ -53,7 +53,7 @@ Structure
 	Narrative:
 		As a [role]
 		I want [feature]
-		So that [benefit]        
+		So that [benefit]
 
 Title Change User profile image.
 Narrative:
