@@ -1,0 +1,18 @@
+C:\Users\Administrator\Desktop\AT04_API_test\OvidioMiranda\Cucumber_Session_01\P
+ractice_02>cucumber features\adding.feature --dry-run
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+Feature: Adding
+
+  Scenario Outline: Add two numbers      # features/adding.feature:2
+    Given the input "<input>"            # features/adding.feature:3
+    When the calculator is run           # features/adding.feature:4
+    Then the output should be "<output>" # features/adding.feature:5
+
+    Examples:
+      | input | output |
+      | 2+2   | 4      |
+      | 98+1  | 99     |
+
+2 scenarios (2 skipped)
+6 steps (6 skipped)

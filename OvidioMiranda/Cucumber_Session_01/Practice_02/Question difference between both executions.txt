@@ -1,0 +1,5 @@
+Which one is the difference between both executions?
+
+When we run the feature with the --dry-run statement, it checks the format without executing the steps.
+
+But when it is a normal execution without --dry-run executes all the definitions of steps also gives the time that takes to execute
