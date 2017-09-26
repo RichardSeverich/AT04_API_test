@@ -1,0 +1,5 @@
+Now change the keyword for example instead of Given put When.
+Run again your feature file. Is it still working?
+
+The step definition associated with the step is still working, so this
+keyword can be changed by the other.
