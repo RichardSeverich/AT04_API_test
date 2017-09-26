@@ -1,0 +1,5 @@
+Which one is the difference between both executions?
+
+When we execute the feature file with the parameter --dry-run we skip execution of glue code.
+The --dry-run command only gives a quick scan of the features without actually running them.
+The normal execution perform the execution of all step definitions.
