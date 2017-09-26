@@ -1,0 +1,43 @@
+With --dry-run
+C:\API TESTING\practices\AT04_API_test\YuriOrtuno\Session1_01_Cucumber\Practice_02>cucumber features\customer.feature --dry-run
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansicon/) to get coloured output on Windows
+Feature: Search page
+  'When I go to the Google search page, and search for an item,
+  I expect to see some reference to that item in the result summary.'
+
+  Scenario: yuye                              # features/customer.feature:5
+    Given I have deposited $100 in my account # features/step_definitions/my_steps.rb:1
+    When I have deposited $250 in my account  # features/step_definitions/my_steps.rb:1
+    When I add cats to the search box         # features/step_definitions/my_steps.rb:5
+    And click the Search Button               # features/step_definitions/my_steps.rb:10
+
+1 scenario (1 skipped)
+4 steps (4 skipped)
+
+
+Without --dry-run
+C:\API TESTING\practices\AT04_API_test\YuriOrtuno\Session1_01_Cucumber\Practice_02>cucumber features\customer.feature
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansicon/) to get coloured output on Windows
+Feature: Search page
+  'When I go to the Google search page, and search for an item,
+  I expect to see some reference to that item in the result summary.'
+
+  Scenario: yuye                              # features/customer.feature:5
+    Given I have deposited $100 in my account # features/step_definitions/my_steps.rb:1
+      100
+    When I have deposited $250 in my account  # features/step_definitions/my_steps.rb:1
+      250
+    When I add cats to the search box         # features/step_definitions/my_steps.rb:5
+      asd
+    And click the Search Button               # features/step_definitions/my_steps.rb:10
+      HOLAAA
+
+1 scenario (1 passed)
+4 steps (4 passed)
+0m0.029s
+
+
+
+Conclusion
+With --dry-run run all test and show all result of steps definitions
+Without --dry-run only run alll test

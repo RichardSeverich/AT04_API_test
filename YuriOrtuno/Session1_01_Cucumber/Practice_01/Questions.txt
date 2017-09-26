@@ -1,0 +1,65 @@
+RESEARCH
+1.- When and why BDD was defined
+ When
+  BDD is metodology on develop of SW since 2003
+
+ Why
+    This is a Collaboration, Helps a business and its technical
+    team deliver software that fulfils business goals.
+
+2.- The most important aspects of BDD
+
+    This is a Guide with an approach to development that improves communication between business
+    and technical teams to create software with business value.
+
+3.- Why is useful and when could be applied.
+
+    This is useful for all people that have don't knowledge
+    about develop a software or a little knowledge.
+
+    When
+    Is a direct communication PO <-> DEV <-> QA
+
+4.-Which type of teams could implement BDD
+
+    BDD is to provide a single answer to what many Agile teams view as separate activities: the creation
+    of unit tests and "technical" code on one hand, the creation of functional tests and "features" on the
+    other hand. This should lead to increased collaboration between developers, test specialists, and domain experts
+
+
+STRUCTURE OF A FEATURE - GIVE AN EXAMPLE
+
+The structure of a feature is Feature - Background - Scenario - step
+Example:
+
+Feature: Serve coffee
+  Coffee should not be served until paid for
+  Coffee should not be served until the button has been pressed
+  If there is no coffee left then money should be refunded
+
+
+STRUCTURE OF A USER HISTORY - GIVE AN EXAMPLE
+
+Is Feature - Background - Scenario - step
+Feature: MyPage Login
+In order to Login in MyPage we have to enter login details
+
+Scenario: Register On MyPage with valid email
+    Given I am on the MyPage homepage
+    When enter details for Register
+    Then login details shown
+
+
+7.- Structure of a scenario – Give an example
+The structure of a scenario is Feature - Background - Scenario - step
+
+Scenario: Register On MyPage with valid email
+    Given I am on the MyPage homepage
+    When enter details for Register
+    Then login details shown
+
+8.- Differences between BDD and BDT
+The differences between BDD and BDT is that:
+
+BDT is focused on testing
+BDD is focused behavior
