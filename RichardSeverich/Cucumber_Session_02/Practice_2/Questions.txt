@@ -1,0 +1,6 @@
+Run your example.feature file, review the steps definition created by default.
+Copy all the step definitions into a ruby file in steps folder.
+Identify the two parts of the step definition.(define each one as a comment)
+Now change the keyword for example instead of Given put When. Run again your feature file.
+Is it still working?
+Yes, When the reserved words are changed by others in the feature file, this is still executed.
