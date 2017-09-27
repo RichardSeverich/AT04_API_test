@@ -9,3 +9,11 @@ end
 And(/^I selected as country(\D+)/) do |country|
   puts "Country: #{country}"
 end
+
+And(/^I click on save button$/) do
+  puts "Click on Save"
+end
+
+Then(/^message is displayed stating that the account was saved successfully$/) do
+  puts "Show Message"
+end
