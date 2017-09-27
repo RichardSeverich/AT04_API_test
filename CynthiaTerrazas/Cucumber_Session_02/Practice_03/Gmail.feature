@@ -11,8 +11,8 @@
 #(you can try to insert also any other value in order to see that other values are not matching)
 
 Feature:Gmail Page
-  Scenario: gmail page
+  Scenario: gmail page information
     Given I am on the Gmail page
     When I click on For work option
-    And  I click on "Start using" option
+    And  I click on Start option
     Then I should be on Welcome Gmail home page
