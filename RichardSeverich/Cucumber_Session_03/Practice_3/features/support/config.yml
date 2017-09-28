@@ -1,0 +1,8 @@
+# top level
+app:
+  #options in level
+  admin_user: RichardSeverich
+  admin_pass: myPassword123
+  host: ixplora.com
+  port: 8090
+  rootPath: /api/v1
