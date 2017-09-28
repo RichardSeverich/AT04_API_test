@@ -26,3 +26,18 @@ When(/^I do these activities:$/) do |table|
     puts "For the subject #{index['subject']}"
   }
 end
+
+When(/^I have these activities:$/) do |table|
+  @table = table.raw
+end
+
+When(/^I do these "([^"]*)" for "([^"]*)"$/) do |activity, subject|
+  row = @table.map { |act, sub, status|
+    act == activity && sub == subject ? [act, sub, "done"] : [act, sub, status]
+  }
+  @table = row
+end
+
+Then(/^The activities should be like these:$/) do |expected_table|
+  expected_table.diff!(@table)
+end

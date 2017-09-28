@@ -17,3 +17,16 @@ Feature: Daily activities
     | ruby      | API test |
     | test plan | English  |
     Then I finish early
+
+  Scenario: Third
+    When I have these activities:
+    | activity  | subject  | status  |
+    | practice  | API test | pending |
+    | ruby      | API test | pending |
+    | test plan | English  | pending |
+    And I do these "practice" for "API test"
+    Then The activities should be like these:
+    | activity  | subject  | status  |
+    | practice  | API test | done    |
+    | ruby      | API test | pending |
+    | test plan | English  | pending |
