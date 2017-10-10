@@ -1,0 +1,30 @@
+$ cucumber features
+
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansicon/) to get coloured output on Windows
+#This feature was made by Richard Severich
+#copyright – Richard Severich
+Feature: Login
+  As account owner
+  I want to login facebook page.
+  So that I can do login successfully
+
+  Scenario Outline: Login successfully with valid user and password # features/login.feature:9
+    Given I am on the Facebook page                                 # features/login.feature:10
+    When I set username <Username> and <Password>                   # features/login.feature:11
+    And click log in button                                         # features/login.feature:12
+    Then I should see facebook home page                            # features/login.feature:13
+
+    Examples:
+      | Username                       | Password   |
+      | richard.severich@fundacion.org | myPassword |  I am on facebook, username : richard.severich@fundacion.org, password : myPassword, click log in button, I should see facebook home page
+      | RichardSeverich                | myPassword |  I am on facebook, username : RichardSeverich, password : myPassword, click log in button, I should see facebook home page
+      | 7679666                        | myPassword |  I am on facebook, username : 7679666, password : myPassword, click log in button, I should see facebook home page
+
+  Scenario: Given I have %100 my account # features/login.feature:20
+    Given I have $100 in my account      # features/step_definitions/steps.rb:18
+      Step def was running
+
+4 scenarios (4 passed)
+13 steps (13 passed)
+0m0.041s
+

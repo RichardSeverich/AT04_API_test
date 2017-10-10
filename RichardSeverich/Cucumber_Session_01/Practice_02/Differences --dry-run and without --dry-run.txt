@@ -1,0 +1,6 @@
+With --dry-run
+Dry run gives you a way to quickly scan your features without actually running them.
+Invokes formatters without executing the steps.
+This also omits the loading of your support/env.rb file if it exists.
+Without --dry-run
+Runs all defined steps

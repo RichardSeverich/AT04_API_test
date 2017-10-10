@@ -1,0 +1,1 @@
+cucumber –f html –o test_report.html feature/<feature_file>
