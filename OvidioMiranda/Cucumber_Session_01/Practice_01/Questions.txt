@@ -1,0 +1,78 @@
+﻿
+Name: Simon Ovidio Miranda Chiri
+
+Answers About BDD
+
+1. When and why BDD was defined
+
+BDD began to be defined in 2003 with Agiledox, it was development-driven (TDD)
+because it wanted to provide development teams with a bridge of communication
+between business analysts and developers to write more meaningful tests.
+
+2. The most important aspects of BDD
+
+* The language used is understandable to all team members by facilitating communication between
+  project team members and business stakeholders, it also facilitates joining new people to the work process.
+* Improved quality code that reduces maintenance costs and minimizes project risk.
+* All parties have a shared understanding of the project and can participate in the communication.
+* Tools targeting a BDD approach generally allow the automatic generation of technical documentation
+  and end-user specifications.
+* The technical documentation obtained facilitates the maintenance of the code.
+
+3. Why is it useful and when could it be applied?
+
+It is useful because it provides a common domain language, which all together (developer, tester and company) understand,
+also allows to write test cases (scenarios) and acceptance criteria before any development.
+
+BDD could be applied to any project, to reduce uncertainty and build trust in what it is building, allowing communication
+among project team members to achieve best practices for writing tests and covering more cases.
+
+4. Which type of teams could implement BDD
+
+It could be implemented by teams that want to apply agile methodologies to build and deliver higher quality software
+in less time and that are more reliable than they are minimally with a developer or tester.
+
+5. Structure of a feature – Give an example
+	The structure of a feature is:
+		* Name
+	    * Size [Optional]
+	    * Priority
+
+	Example:
+	 Feature: Search Wikipedia
+
+6. Structure of a user story – Give an example
+    The Structure
+ 	  Title (one line describing the story)
+ 	  Narrative:
+ 	      As a [role]
+ 	      I want [feature]
+ 	      So that [benefit]
+ 	Example:
+      Title Visitor attend a talk
+          As a conference visitor,
+          I want to attende a talk to
+          acquire new knowledge
+
+    Acceptance Criteria
+      I won´t fall asleep or play with my iphone.
+      By the end of the talk, I can correctly answer three questions about the subject.
+      The talk should be no longer than 45 min.
+
+7. Structure of a scenario – Give an example
+
+    The structure of a scenario:
+      Given some initial context (the givens)
+      When an event occurs
+      then ensure some outcomes
+    Example:
+
+    Feature: Search Wikipedia
+      Scenario: direct search article
+        Given Enter search term 'Cucumber'
+        When Do search
+        Then Single result is shown for 'Cucumber'
+
+8. Differences between BDD and BDT
+_BDD focuses on test development.
+_BDT focuses on writing test.
