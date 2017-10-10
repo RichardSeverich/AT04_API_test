@@ -1,0 +1,131 @@
+Research :
+-•-When and why BDD was defined
+
+Behavior driven development BDD is an evolution of TDD and BDD was initially introduced by Dan North in response to problems arising in teaching TDD.
+
+BDD is an evolution of TDD (Test Driven Development). In fact, the concept of BDD was initially introduced by Dan North in response to problems arising in teaching TDD.
+
+These difficulties were:
+
+-Confusion not knowing where to start the TDD process.
+-How to distinguish between what should be tested and what not.
+-How many tests should be done in a cycle or pass.
+-What names to place on the evidence.
+-Not understanding the causes and failure of the tests.
+
+For each of these problems, BDD method was created for solve them.
+
+
+-•-The most important aspects of BDD
+
+Some of the most important aspects of BDD are:
+
+-The needs of the business are prioritized and the most valuable functionalities are produced first.
+-Less number of errors in the software.
+-Software development meets user need. 
+-Lower software development and maintenance costs.
+-Reduction in the "Time to market", producing features of greater impact for the business area in less time.
+
+
+-•-Why is useful and when could be applied.
+
+BDD is useful because the tests are written in a friendly way for the business since BDD in an easy lenguage for understand , so is a bridge between business languages  and the automated tests.
+
+BDD would apply the moment that it is necesary to do tests automated when agile group have to work in separates activites,because BDD increase collaboration between developers, test specialists,and the product owner.
+
+
+-•-Which type of teams could implement BDD
+
+I think that the type of teams could implement BDD are the developers and Automation testers teams.
+
+
+-•-Structure of a feature – Give an example
+
+A Feature can be defined as a standalone unit or functionality of a project
+The extension of the feature file needs to be “.feature”.
+
+The structure a feature is:
+-The Feature: keyword.
+-The Feature name (on the same line as the keyword).
+-An optional description on the following lines.
+-Body that is composed for scenaries.
+
+Example
+Feature: Serve coffee
+  Coffee should not be served until paid for
+  Coffee should not be served until the button has been pressed
+  If there is no coffee left then money should be refunded
+
+Scenario: Buy last coffee
+  Given there are 1 coffees left in the machine
+  And I have deposited 1$
+  When I press the coffee button
+  Then I should be served a coffee
+
+
+-•-Structure of a user story – Give an example
+
+It is a description of a requirement and its commercial benefit, and a set of criteria by which all of the work team we agree.
+   
+The structure of a user story is :
+
+	  Title (one line describing the story)
+•    Narrative:
+•	  As a [role]
+•	  I want [feature]
+•	  So that [benefit]
+•     Acceptance criteria
+
+Example:
+User story title: Customer withdraws cash.
+
+As a customer,
+I want to withdraw cash from an ATM
+So that I don't have to wait in line at the bank.
+
+Acceptance Criterion 1:
+
+Given that the account is creditworthy
+   And the card is valid
+   And the dispenser contains cash,
+When the customer requests the cash
+Then ensure the account is debited
+   And ensure cash is dispensed
+   And ensure the card is returned.
+
+
+
+-•-Structure of a scenario – Give an example
+
+Each Feature is made of a collection of scenarios
+
+Scenario is defined by a sequence of Steps outlining the preconditions and flow of events that will take place. 
+
+The structure of a scenario is:
+Given 
+When 
+Then  
+And 
+But 
+
+Example:
+Scenario Outline: feeding a suckler cow
+  Given the cow weighs <weight> kg
+  When we calculate the feeding requirements
+  Then the energy should be <energy> MJ
+  And the protein should be <protein> kg
+
+  Examples:
+    | weight | energy | protein |
+    |    450 |  26500 |     215 |
+    |    500 |  29500 |     245 |
+    |    575 |  31500 |     255 |
+    |    600 |  37000 |     305 |
+
+
+
+-•-Differences between BDD and BDT
+
+The differences are few but the most important is the form of developing this techniques, because has differentes focuses.
+BDT is focused on testing
+BDD is focused behavior
